@@ -1,0 +1,44 @@
+#header {
+    margin: 15px 0 0 0;
+}
+
+#navtitle {
+    padding-left: 0;
+}
+
+.rowheader {
+    font-weight: bold;
+}
+
+table {
+    border: 3px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+@media (max-width: 320px)
+{
+    #navtitle div {
+        border: 1px solid black;
+        font-size: 10px;
+        padding: 10px 0 10px 0;
+        text-align: center;
+    }
+
+    #navtitle > h1 {
+        font-size: 25px;
+    }
+}
