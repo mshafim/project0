@@ -1,0 +1,46 @@
+$red: #ff6666;
+$green: #6dfc3a;
+$blue: #66d3ff;
+$crimson: #cc3747;
+
+
+%links {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0;
+    a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+#home {
+    @extend %links;
+    &:hover {
+        background-color: $red;
+    }
+}
+
+#aboutme {
+    @extend %links;
+    &:hover {
+        background-color: $blue;
+    }
+}
+
+#college {
+    @extend %links;
+    &:hover {
+        background-color: $green;
+    }
+}
+
+#career {
+    @extend %links;
+    &:hover {
+        background-color: $crimson;
+    }
+}

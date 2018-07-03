@@ -1,0 +1,23 @@
+#home, #aboutme, #college, #career {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0; }
+  #home a, #aboutme a, #college a, #career a {
+    text-decoration: none;
+    color: black; }
+    #home a:hover, #aboutme a:hover, #college a:hover, #career a:hover {
+      color: white; }
+
+#home:hover {
+  background-color: #ff6666; }
+
+#aboutme:hover {
+  background-color: #66d3ff; }
+
+#college:hover {
+  background-color: #6dfc3a; }
+
+#career:hover {
+  background-color: #cc3747; }
+
+/*# sourceMappingURL=color.css.map */
